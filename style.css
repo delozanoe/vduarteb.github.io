@@ -1,0 +1,54 @@
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 25%;
+  padding-left: 50%;
+  color: white;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40pt;
+}
+
+.text-background-color {
+  background-color: #ebecf0;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+}
+
+.content-background-color {
+  background-color: #e1e7e8;
+}
+
+.img-min-size {
+  min-width: 195px;
+}
+
+.image-size {
+  max-width: 179px;
+  max-height: 178px;
+  width: "180px";
+  height: "178px";
+}
+
+#travel .image-size:hover {
+  transform: scale(1.01);
+}
+
+.min-proportions {
+  max-width: 220px;
+  max-height: 335px;
+  width: "220px";
+  height: "335px";
+  padding-right: 5px;
+}

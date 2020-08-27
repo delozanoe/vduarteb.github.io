@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <title>Personal Web Page</title>
+  </head>
+  <body>
+    <!--Header with NavBar-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/logo.png"
+              width="60"
+              height="60"
+              class="d-inline-block align-top"
+              alt="Logo"
+              loading="lazy"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#who">Who am I?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#academic">Academic Background</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Work Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#interests">My Interests</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--Main section-->
+    <main>
+      <!--Banner-->
+      <section>
+        <div class="container-fluid">
+          <img
+            src="images/header.jpg"
+            class="d-block w-100"
+            alt="Banner image"
+          />
+          <div class="container-fluid">
+            <div class="text-overlay">
+              <div class="row align-items-center">
+                <div class="offset-2 col-10">
+                  <h1>Valentina Duarte</h1>
+                  <p class="text-justify">Hey! Welcome to my personal page.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Who am I? Section-->
+      <section id="who">
+        <div class="container-fluid mb-5 mt-5">
+          <div class="row mb-4">
+            <div class="col">
+              <h1 class="title">Who am I?</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="offset-1 col-4">
+              <img
+                class="img-fluid img-min-size"
+                src="images/valentina.jpeg"
+                alt="Banner"
+                width="480"
+                height="650"
+                alt="Foto personal"
+              />
+            </div>
+            <div class="col-6 text-background-color d-flex align-items-center">
+              <p class="text-justify">
+                My name is Valentina Duarte Benítez and I'm 21 years old. I was
+                born on August 25, 1999 in a small colombian city called
+                Bucaramanga. When I was very young, I moved to Bogota and I've
+                lived there ever since. I'm on seventh semester of systems
+                engineering at Los Andes University'.
+                <span class="d-none d-md-block">
+                  <br />
+                  If you keep scrolling, you'll learn a lot of things about me!
+                  Like my interests, my educational background and some of my
+                  most recent projects.
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Academic Background Section-->
+
+      <section id="academic" class="content-background-color">
+        <div class="container mb-5 mt-5 d">
+          <div class="row mb-4">
+            <div class="col">
+              <h1 class="title">Academic Background</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="card card-hover" style="width: 18rem">
+                <img
+                  class="card-img-top"
+                  src="images/gv.png"
+                  alt="Gimnasio Vermont"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    Gimnasio Vermont School
+                  </h5>
+                  <p class="card-text text-center">Baccalaureate Graduate</p>
+                  <p class="card-text text-center">2003-2017</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="card card-hover" style="width: 18rem">
+                <img
+                  class="card-img-top"
+                  src="images/ib.png"
+                  alt="Gimnasio Vermont"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    International Baccalaureate
+                  </h5>
+                  <p class="card-text text-center">Baccalaureate Graduate</p>
+                  <p class="card-text text-center">2015-2017</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="card card-hover" style="width: 18rem">
+                <img
+                  class="card-img-top"
+                  src="images/andes.png"
+                  alt="Los Andes University"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Los Andes University</h5>
+                  <p class="card-text text-center">
+                    Undergraduate on Systems Engineering
+                  </p>
+                  <p class="card-text text-center">2017-Present</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+      </section>
+      <!--Work Experience Section-->
+      <section id="experience">
+        <div class="container mb-5 mt-5 d">
+          <div class="row mb-4">
+            <div class="col">
+              <h1 class="title">Work Experience</h1>
+            </div>
+          </div>
+          <div class="card mb-3 card-hover">
+            <div class="row no-gutters">
+              <div class="col-md-3">
+                <img
+                  src="images/andes.png"
+                  class="card-img image-size"
+                  alt="Los Andes University"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">Los Andes University</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Undergraduate Teaching Assistant- Product Design and IT
+                    Innovation
+                  </h6>
+                  <p class="card-text text-justify">
+                    I'm the course teaching assistant. I help the professor
+                    grade projects, design activities, assign tasks and solve
+                    doubts during each class.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Jan. 2020-Present</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 card-hover">
+            <div class="row no-gutters">
+              <div class="col-md-3">
+                <img
+                  src="images/bpm.png"
+                  class="card-img image-size"
+                  alt="BPM Consulting"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">BPM Consulting</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Backend Software Developer
+                  </h6>
+                  <p class="card-text text-justify">
+                    With my team we designed and implemented a small human
+                    resources solution for the company. The solution generated
+                    labor certificates automatically.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Summer 2020</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 card-hover">
+            <div class="row no-gutters">
+              <div class="col-md-3">
+                <img
+                  src="images/andes.png"
+                  class="card-img image-size"
+                  alt="Los Andes University"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">Los Andes University</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Undergraduate Teaching Assistant- Team Software Development
+                  </h6>
+                  <p class="card-text text-justify">
+                    I worked as the course teaching assistant. My main task was
+                    to help the professor grade projects and solve doubts during
+                    each class.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Aug. 2019- Dec. 2019</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Projects Section-->
+      <section id="projects" class="content-background-color">
+        <div class="container mb-5 mt-5 d">
+          <div class="row mb-4">
+            <div class="col">
+              <h1 class="title">Projects</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/wiKgbz6te8I"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/sHlMd03Ki_E"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <br />
+      </section>
+      <!--Interests Section-->
+      <section id="interests">
+        <div class="container mb-5 mt-5 d">
+          <div class="row mb-4">
+            <div class="col">
+              <h1 class="title">My Interests</h1>
+            </div>
+          </div>
+          <div id="travel">
+            <div class="row">
+              <div
+                class="col-4 text-background-color d-flex align-items-center justify-content-center"
+              >
+                <h1 class="box-title">Traveling</h1>
+              </div>
+              <div class="col-8">
+                <img
+                  src="images/travel1.JPG"
+                  class="image-size img-fluid"
+                  alt="Foto personal"
+                />
+                <img
+                  src="images/travel2.JPG"
+                  class="image-size img-fluid"
+                  alt="Foto personal"
+                />
+                <img
+                  src="images/travel3.JPG"
+                  class="image-size img-fluid"
+                  alt="Foto personal"
+                />
+                <img
+                  src="images/travel4.png"
+                  class="image-size img-fluid"
+                  alt="Foto personal"
+                />
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-4 text-background-color">
+                <p class="text-justify">
+                  I love traveling around the world. The feeling I get whenever
+                  I get to visit a new place, try different food and experience
+                  a new culture is one of the best ones I know.
+                </p>
+              </div>
+              <div class="col-8">
+                <img
+                  src="images/travel5.JPG"
+                  class="image-size img-fluid"
+                  alt="Foto personal"
+                />
+                <img
+                  src="images/travel6.JPG"
+                  class="image-size img-fluid"
+                  alt="Foto personal"
+                />
+                <img
+                  src="images/travel7.JPG"
+                  class="image-size img-fluid"
+                  alt="Foto personal"
+                />
+                <img
+                  src="images/travel8.jpg"
+                  class="image-size img-fluid"
+                  alt="Foto personal"
+                />
+              </div>
+            </div>
+          </div>
+          <!--Volleyball-->
+          <div class="row mb-4">
+            <div
+              class="col-md-7 d-flex align-items-center justify-content-center"
+            >
+              <iframe
+                width="665px"
+                height="315px"
+                src="https://www.youtube.com/embed/AYTm13VdttA"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="col-md-5 col-sm-12 text-background-color">
+              <br />
+              <h1
+                class="box-title d-flex align-items-center justify-content-center"
+              >
+                Volleyball
+              </h1>
+              <br />
+              <p class="text-justify">
+                I played volleyball for years in high school. I was a hitter, on
+                my school's team, and through the years we competed on several
+                championships, and won some of them. I can't play competitively,
+                but I love playing with my friends whenever I get the change. I
+                also really enjoy watching matches online.
+              </p>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-md-5 col-sm-12 text-background-color">
+              <br />
+              <h1
+                class="box-title d-flex align-items-center justify-content-center"
+              >
+                Books, Movies & Series
+              </h1>
+              <br />
+              <p class="text-justify">
+                When I have free time, I really like to read, watch a movie or
+                watch series. I enjoy pretty much any genre, except for horror,
+                and even though I like them all, my favorite "themes" are
+                probably crime/police/detective. On the weekends I love catching
+                a movie at the cinema with my friends or my family.
+              </p>
+              <p>Here I'll leave a quote from one of my favorite series.</p>
+              <div class="d-flex justify-content-center">
+                <audio controls>
+                  <source src="audios/quote.mp3" type="audio/mpeg" />
+                  <source src="audios/quote.mp3" type="audio/ogg" />
+                  Your browser does not support audios.
+                </audio>
+              </div>
+              <br />
+            </div>
+            <div class="col-md-7">
+              <div class="row">
+                <img
+                  src="images/criminal.jpg"
+                  class="img-fluid min-proportions"
+                  alt="Foto personal"
+                />
+
+                <img
+                  src="images/incredibles.jpg"
+                  class="img-fluid min-proportions"
+                  alt="Foto personal"
+                />
+
+                <img
+                  src="images/seven.jpg"
+                  class="img-fluid min-proportions"
+                  alt="Foto personal"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      id="projects"
+      class="content-background-color d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="container mb-5 mt-3 d-flex align-items-center justify-content-center"
+      >
+        <div class="row">
+          <h3>Contact Me!</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-cm-4">
+            <a
+              href="https://www.linkedin.com/in/valentina-duarte-benítez-913b861a6"
+              target="_blank"
+            >
+              <img
+                src="images/linkedin.png"
+                width="40"
+                height="40"
+                alt="LinkedIn Logo"
+                class="img-fluid"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
