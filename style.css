@@ -32,6 +32,7 @@
 
 .img-min-size {
   min-width: 195px;
+  max-width: 612px;
 }
 
 .image-size {
