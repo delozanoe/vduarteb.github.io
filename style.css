@@ -29,20 +29,20 @@
 .content-background-color {
   background-color: #e1e7e8;
 }
-.image-size {
-  max-width: 100%;
-  padding-right: 0px;
-  margin-right: 0px;
-}
-
-#travel .image-size:hover {
-  transform: scale(1.01);
+.small-padding {
+  margin: 0;
+  padding: 2px;
 }
 
 .img-responsive {
   width: 100%;
 }
 
-.prueba {
-  color: red;
+#travel .img-responsive:hover {
+  transform: scale(1.01);
+}
+
+.icon-size {
+  max-width: 50px;
+  max-height: 50px;
 }
